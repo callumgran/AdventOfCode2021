@@ -61,7 +61,7 @@ def create_coords():
                     new_y = str(y_1 + i)
                 else:
                     new_y = str(y_1 - i)
-                key = new_x + ", " + new_y
+                key = new_x + "," + new_y
                 if key in map:
                     map[key] += 1
                 else:
